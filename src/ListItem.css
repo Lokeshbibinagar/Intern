@@ -1,0 +1,20 @@
+.List{
+z-index: 5;
+margin: 2%;
+background-color: rgb(253, 245, 245);
+}
+.title{
+    padding-left: 5%;
+    padding-top: 1%;
+}
+.preview{
+    color: rgb(255, 149, 167);
+    padding-left: 5%;
+}
+.image_div{
+    position: relative;
+    z-index: 10;
+    transform: translateY(-100%);
+    left: 90%;
+   
+}

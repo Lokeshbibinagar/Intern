@@ -6,9 +6,10 @@ function ListItem(props) {
     return (
         <div id="list">
             <div className="List">
-            <h3 className="title"> {props.name} </h3>
-           
-            </div>
+            <h5 className="title"> {props.name} </h5>
+            <p className="prev"> {props.preview} </p>
+            
+        </div>
         </div>
    
     )
